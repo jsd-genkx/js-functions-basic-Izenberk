@@ -15,7 +15,17 @@ Task 04: Traffic Light Action
 ❌ Do not print inside the function.
 ✅ Only return the result.
 */
-
+function trafficLightAction(color) {
+    switch (color) {
+        case "green":
+            return "Go";
+        case "yellow":
+            return "Slow down";
+        case "red":
+            return "Stop";
+        default: return "Invalid light color";
+    }
+}
 // 👨‍💻 TODO-01: Write your code below to complete the task as described above.
 
 // Example Test Cases
